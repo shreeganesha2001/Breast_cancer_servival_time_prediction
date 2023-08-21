@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survival Time Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+</head>
+<body>
+    <h1>Survival Time Prediction</h1>
+    <form method="post">
+        Enter Age: <input type="text" name="age" required><br>
+        Enter no of Auxillary Nodes: <input type="text" name="no_auxiliary_nodes" required><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        {% if prediction == 'Positive' %}
+            <div class="prediction positive">
+                <p>I regret to inform you that I cannot assure your life beyond the next five years</p>
+            </div>
+        {% elif prediction == 'Negative' %}
+            <div class="prediction negative">
+                <p>Great news! I can assure your life beyond the next five years</p>
+            </div>          
+        {% endif %}
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* Apply general styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Style the prediction messages */
+p.prediction {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.positive {
+    background-color: #DFF0D8;
+    color: #A94442;
+}
+
+.negative {
+    background-color: #F2DEDE;
+    color: #3C763D;
+}
