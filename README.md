@@ -1,6 +1,6 @@
 Breast Cancer Survival Time Prediction
 
-![image](https://github.com/shreeganesha2001/Breast_cancer_servival_time_prediction/assets/136672046/67831fd4-de99-4304-98a7-68318187c4ff)
+![Screenshot (644)](https://github.com/shreeganesha2001/Breast_cancer_servival_time_prediction/assets/136672046/54883332-0288-4349-81fc-6161f75430f7)
 
 
 This project implements a web application for predicting survival time of breast cancer patient based on input features using a machine learning model.
