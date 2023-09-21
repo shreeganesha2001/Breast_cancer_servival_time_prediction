@@ -13,3 +13,4 @@ wincertstore==0.2
 Flask==2.0.1
 joblib==1.1.0
 scikit-learn==1.0.2
+NumPy==1.16.5
